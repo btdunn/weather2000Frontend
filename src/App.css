@@ -1,0 +1,115 @@
+body{
+  background-image: url(https://lh3.googleusercontent.com/proxy/2MoFjZV5KR7atIZdBKwI9BPTxVjqRGgoF3IkZ06LjqqKjo89LznEC9ZPxHOCIZHjsTEIHZxsMGFf_wwFMAQf79ajSORGQQ8F);
+  background-repeat: repeat;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header > img{
+  width: 800px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.wrap{
+  height: 70vh;
+  background: linear-gradient(0deg, rgba(14,2,99,1) 0%, rgba(199,204,105,1) 100%);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+marquee{
+  color: white;
+  font-size: 18pt;
+}
+
+.weather-container{
+  height: 50vh;
+  background: radial-gradient(circle, rgba(180,212,210,1) 0%, rgba(28,11,149,1) 100%);
+  width: 40%;
+  text-align: center;
+  opacity: 70%;
+}
+
+.weather-container > p{
+  border-style: dashed;
+  border: pink;
+  font-style: italic;
+  font-size: 20pt;
+  color: whitesmoke
+}
+
+button{
+  color:white;
+  background-color: black;
+}
+
+.rainbow:hover {
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+  }
+  @-webkit-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+  }
+  @-ms-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+  }
+  @-o-keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+  }
+  @keyframes rainbow {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+  }
