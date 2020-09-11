@@ -21,7 +21,7 @@ header > img{
 
 .wrap{
   height: 70vh;
-  background: linear-gradient(0deg, rgba(14,2,99,1) 0%, rgba(199,204,105,1) 100%);
+  background: linear-gradient(0deg, rgba(161,161,161,1) 0%, rgba(199,84,84,1) 100%);
   width: 50%;
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@ marquee{
 
 .weather-container{
   height: 50vh;
-  background: radial-gradient(circle, rgba(180,212,210,1) 0%, rgba(28,11,149,1) 100%);
+  background: radial-gradient(circle, rgba(196,89,89,1) 0%, rgba(177,177,177,1) 100%);
   width: 40%;
   text-align: center;
   opacity: 70%;
